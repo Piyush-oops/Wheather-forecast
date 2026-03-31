@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <form>
+                <input type="text" placeholder="Enter city name" required>
+                <button>Search</button>
+            </form>
+            <div id="weather">
+                <div>
+                    <h1></h1>
+                    <h2></h2>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p></p>
+                </div>
+            </div>
+            <div id="forecast">
+                <table>
+                    <tr>
+                        <th>Forecast</th>
+                        <th>Air quality</th>
+                        <th>Average Temprature</th>
+                        <th>Alerts</th>
+                    </tr>
+                    <tr>
+                        <td>Current Day</td>
+                        <td id="f"></td>
+                        <td id="av1"></td>
+                        <td id="al1"></td>
+                    </tr>
+                    <tr>
+                        <td>Second Day</td>
+                        <td id="s"></td>
+                        <td id="av2"></td>
+                        <td id="al2"></td>
+                    </tr>
+                    <tr>
+                        <td>Third Day</td>
+                        <td id="t"></td>
+                        <td id="av3"></td>
+                        <td id="al3"></td>
+                    </tr>
+                    <tr>
+                        <td>Fourth Day</td>
+                        <td id="fr"></td>
+                        <td id="av4"></td>
+                        <td id="al4"></td>
+                    </tr>
+                    <tr>
+                        <td>Fifth Day</td>
+                        <td id="fi"></td>
+                        <td id="av5"></td>
+                        <td id="al5"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

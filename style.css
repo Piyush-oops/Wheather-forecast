@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Alkatra", system-ui;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: 30px 0px;
+    padding: 40px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    min-height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form{
+    width: 100%;
+    margin: 25px 0px;
+}
+
+input{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+button{
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0px;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: rgb(82, 80, 80);
+}
+
+h1{
+    font-size: 35px;
+    margin: 15px 0px;
+}
+
+h2{
+    font-size: 26px;
+}
+
+#weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#forecast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 90px;
+}
+
+th,
+td{
+    padding: 9px 9px;
+}
